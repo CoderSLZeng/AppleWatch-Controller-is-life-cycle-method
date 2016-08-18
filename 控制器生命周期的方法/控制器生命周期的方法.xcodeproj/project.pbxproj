@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92BB62711D660D0B0059BAF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB62701D660D0B0059BAF4 /* main.m */; };
+		92BB62741D660D0B0059BAF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB62731D660D0B0059BAF4 /* AppDelegate.m */; };
+		92BB62771D660D0B0059BAF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB62761D660D0B0059BAF4 /* ViewController.m */; };
+		92BB627A1D660D0B0059BAF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BB62781D660D0B0059BAF4 /* Main.storyboard */; };
+		92BB627C1D660D0B0059BAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BB627B1D660D0B0059BAF4 /* Assets.xcassets */; };
+		92BB627F1D660D0B0059BAF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BB627D1D660D0B0059BAF4 /* LaunchScreen.storyboard */; };
+		92BB62841D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 92BB62831D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App.app */; };
+		92BB628A1D660D0C0059BAF4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BB62881D660D0C0059BAF4 /* Interface.storyboard */; };
+		92BB628C1D660D0C0059BAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BB628B1D660D0C0059BAF4 /* Assets.xcassets */; };
+		92BB62931D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 92BB62921D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		92BB629B1D660D0C0059BAF4 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB629A1D660D0C0059BAF4 /* InterfaceController.m */; };
+		92BB629E1D660D0C0059BAF4 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB629D1D660D0C0059BAF4 /* ExtensionDelegate.m */; };
+		92BB62A11D660D0C0059BAF4 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BB62A01D660D0C0059BAF4 /* NotificationController.m */; };
+		92BB62A31D660D0C0059BAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BB62A21D660D0C0059BAF4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92BB62851D660D0B0059BAF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92BB62641D660D0B0059BAF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92BB62821D660D0B0059BAF4;
+			remoteInfo = "控制器生命周期的方法 WatchKit App";
+		};
+		92BB62941D660D0C0059BAF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92BB62641D660D0B0059BAF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92BB62911D660D0C0059BAF4;
+			remoteInfo = "控制器生命周期的方法 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92BB62AA1D660D0C0059BAF4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				92BB62931D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BB62AE1D660D0C0059BAF4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				92BB62841D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		92BB626C1D660D0B0059BAF4 /* 控制器生命周期的方法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "控制器生命周期的方法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BB62701D660D0B0059BAF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92BB62721D660D0B0059BAF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92BB62731D660D0B0059BAF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92BB62751D660D0B0059BAF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92BB62761D660D0B0059BAF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92BB62791D660D0B0059BAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92BB627B1D660D0B0059BAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92BB627E1D660D0B0059BAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92BB62801D660D0B0059BAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BB62831D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "控制器生命周期的方法 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BB62891D660D0C0059BAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		92BB628B1D660D0C0059BAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92BB628D1D660D0C0059BAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BB62921D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "控制器生命周期的方法 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BB62981D660D0C0059BAF4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		92BB62991D660D0C0059BAF4 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		92BB629A1D660D0C0059BAF4 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		92BB629C1D660D0C0059BAF4 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		92BB629D1D660D0C0059BAF4 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		92BB629F1D660D0C0059BAF4 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		92BB62A01D660D0C0059BAF4 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		92BB62A21D660D0C0059BAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92BB62A41D660D0C0059BAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92BB62691D660D0B0059BAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BB628F1D660D0C0059BAF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92BB62631D660D0B0059BAF4 = {
+			isa = PBXGroup;
+			children = (
+				92BB626E1D660D0B0059BAF4 /* 控制器生命周期的方法 */,
+				92BB62871D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App */,
+				92BB62961D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension */,
+				92BB626D1D660D0B0059BAF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92BB626D1D660D0B0059BAF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92BB626C1D660D0B0059BAF4 /* 控制器生命周期的方法.app */,
+				92BB62831D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App.app */,
+				92BB62921D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92BB626E1D660D0B0059BAF4 /* 控制器生命周期的方法 */ = {
+			isa = PBXGroup;
+			children = (
+				92BB62721D660D0B0059BAF4 /* AppDelegate.h */,
+				92BB62731D660D0B0059BAF4 /* AppDelegate.m */,
+				92BB62751D660D0B0059BAF4 /* ViewController.h */,
+				92BB62761D660D0B0059BAF4 /* ViewController.m */,
+				92BB62781D660D0B0059BAF4 /* Main.storyboard */,
+				92BB627B1D660D0B0059BAF4 /* Assets.xcassets */,
+				92BB627D1D660D0B0059BAF4 /* LaunchScreen.storyboard */,
+				92BB62801D660D0B0059BAF4 /* Info.plist */,
+				92BB626F1D660D0B0059BAF4 /* Supporting Files */,
+			);
+			path = "控制器生命周期的方法";
+			sourceTree = "<group>";
+		};
+		92BB626F1D660D0B0059BAF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BB62701D660D0B0059BAF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92BB62871D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				92BB62881D660D0C0059BAF4 /* Interface.storyboard */,
+				92BB628B1D660D0C0059BAF4 /* Assets.xcassets */,
+				92BB628D1D660D0C0059BAF4 /* Info.plist */,
+			);
+			path = "控制器生命周期的方法 WatchKit App";
+			sourceTree = "<group>";
+		};
+		92BB62961D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				92BB62991D660D0C0059BAF4 /* InterfaceController.h */,
+				92BB629A1D660D0C0059BAF4 /* InterfaceController.m */,
+				92BB629C1D660D0C0059BAF4 /* ExtensionDelegate.h */,
+				92BB629D1D660D0C0059BAF4 /* ExtensionDelegate.m */,
+				92BB629F1D660D0C0059BAF4 /* NotificationController.h */,
+				92BB62A01D660D0C0059BAF4 /* NotificationController.m */,
+				92BB62A21D660D0C0059BAF4 /* Assets.xcassets */,
+				92BB62A41D660D0C0059BAF4 /* Info.plist */,
+				92BB62971D660D0C0059BAF4 /* Supporting Files */,
+			);
+			path = "控制器生命周期的方法 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		92BB62971D660D0C0059BAF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BB62981D660D0C0059BAF4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92BB626B1D660D0B0059BAF4 /* 控制器生命周期的方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BB62AF1D660D0C0059BAF4 /* Build configuration list for PBXNativeTarget "控制器生命周期的方法" */;
+			buildPhases = (
+				92BB62681D660D0B0059BAF4 /* Sources */,
+				92BB62691D660D0B0059BAF4 /* Frameworks */,
+				92BB626A1D660D0B0059BAF4 /* Resources */,
+				92BB62AE1D660D0C0059BAF4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92BB62861D660D0B0059BAF4 /* PBXTargetDependency */,
+			);
+			name = "控制器生命周期的方法";
+			productName = "控制器生命周期的方法";
+			productReference = 92BB626C1D660D0B0059BAF4 /* 控制器生命周期的方法.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92BB62821D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BB62AB1D660D0C0059BAF4 /* Build configuration list for PBXNativeTarget "控制器生命周期的方法 WatchKit App" */;
+			buildPhases = (
+				92BB62811D660D0B0059BAF4 /* Resources */,
+				92BB62AA1D660D0C0059BAF4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92BB62951D660D0C0059BAF4 /* PBXTargetDependency */,
+			);
+			name = "控制器生命周期的方法 WatchKit App";
+			productName = "控制器生命周期的方法 WatchKit App";
+			productReference = 92BB62831D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		92BB62911D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BB62A71D660D0C0059BAF4 /* Build configuration list for PBXNativeTarget "控制器生命周期的方法 WatchKit Extension" */;
+			buildPhases = (
+				92BB628E1D660D0C0059BAF4 /* Sources */,
+				92BB628F1D660D0C0059BAF4 /* Frameworks */,
+				92BB62901D660D0C0059BAF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "控制器生命周期的方法 WatchKit Extension";
+			productName = "控制器生命周期的方法 WatchKit Extension";
+			productReference = 92BB62921D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92BB62641D660D0B0059BAF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SLZeng;
+				TargetAttributes = {
+					92BB626B1D660D0B0059BAF4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					92BB62821D660D0B0059BAF4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					92BB62911D660D0C0059BAF4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 92BB62671D660D0B0059BAF4 /* Build configuration list for PBXProject "控制器生命周期的方法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92BB62631D660D0B0059BAF4;
+			productRefGroup = 92BB626D1D660D0B0059BAF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92BB626B1D660D0B0059BAF4 /* 控制器生命周期的方法 */,
+				92BB62821D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App */,
+				92BB62911D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92BB626A1D660D0B0059BAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BB627F1D660D0B0059BAF4 /* LaunchScreen.storyboard in Resources */,
+				92BB627C1D660D0B0059BAF4 /* Assets.xcassets in Resources */,
+				92BB627A1D660D0B0059BAF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BB62811D660D0B0059BAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BB628C1D660D0C0059BAF4 /* Assets.xcassets in Resources */,
+				92BB628A1D660D0C0059BAF4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BB62901D660D0C0059BAF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BB62A31D660D0C0059BAF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92BB62681D660D0B0059BAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BB62771D660D0B0059BAF4 /* ViewController.m in Sources */,
+				92BB62741D660D0B0059BAF4 /* AppDelegate.m in Sources */,
+				92BB62711D660D0B0059BAF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BB628E1D660D0C0059BAF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BB629E1D660D0C0059BAF4 /* ExtensionDelegate.m in Sources */,
+				92BB629B1D660D0C0059BAF4 /* InterfaceController.m in Sources */,
+				92BB62A11D660D0C0059BAF4 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92BB62861D660D0B0059BAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92BB62821D660D0B0059BAF4 /* 控制器生命周期的方法 WatchKit App */;
+			targetProxy = 92BB62851D660D0B0059BAF4 /* PBXContainerItemProxy */;
+		};
+		92BB62951D660D0C0059BAF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92BB62911D660D0C0059BAF4 /* 控制器生命周期的方法 WatchKit Extension */;
+			targetProxy = 92BB62941D660D0C0059BAF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92BB62781D660D0B0059BAF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BB62791D660D0B0059BAF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92BB627D1D660D0B0059BAF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BB627E1D660D0B0059BAF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92BB62881D660D0C0059BAF4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BB62891D660D0C0059BAF4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92BB62A51D660D0C0059BAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92BB62A61D660D0C0059BAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92BB62A81D660D0C0059BAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "控制器生命周期的方法 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.----------.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		92BB62A91D660D0C0059BAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "控制器生命周期的方法 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.----------.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		92BB62AC1D660D0C0059BAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "___________WatchKit_Extension";
+				INFOPLIST_FILE = "控制器生命周期的方法 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.----------.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		92BB62AD1D660D0C0059BAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "___________WatchKit_Extension";
+				INFOPLIST_FILE = "控制器生命周期的方法 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.----------.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		92BB62B01D660D0C0059BAF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "控制器生命周期的方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92BB62B11D660D0C0059BAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "控制器生命周期的方法/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92BB62671D660D0B0059BAF4 /* Build configuration list for PBXProject "控制器生命周期的方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BB62A51D660D0C0059BAF4 /* Debug */,
+				92BB62A61D660D0C0059BAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BB62A71D660D0C0059BAF4 /* Build configuration list for PBXNativeTarget "控制器生命周期的方法 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BB62A81D660D0C0059BAF4 /* Debug */,
+				92BB62A91D660D0C0059BAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92BB62AB1D660D0C0059BAF4 /* Build configuration list for PBXNativeTarget "控制器生命周期的方法 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BB62AC1D660D0C0059BAF4 /* Debug */,
+				92BB62AD1D660D0C0059BAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92BB62AF1D660D0C0059BAF4 /* Build configuration list for PBXNativeTarget "控制器生命周期的方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BB62B01D660D0C0059BAF4 /* Debug */,
+				92BB62B11D660D0C0059BAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92BB62641D660D0B0059BAF4 /* Project object */;
+}
